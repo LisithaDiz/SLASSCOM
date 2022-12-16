@@ -16,9 +16,9 @@ class Para {
             q=s.length();
         }
         if(q==0){
-              return true;;
+              return true;
         }else {
-              return false;;
+              return false;
         }
     }
 
