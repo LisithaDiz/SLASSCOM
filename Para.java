@@ -3,8 +3,6 @@ import java.util.*;
 
 class Para {
     public boolean isValid(String s) {
-        boolean bool;
-        int i = 0;
         int q=s.length();
 
         while (q>0) {
@@ -18,12 +16,10 @@ class Para {
             q=s.length();
         }
         if(q==0){
-            bool=true;
+              return true;;
         }else {
-            bool=false;
+              return false;;
         }
-
-        return bool;
     }
 
     public static void main(String[] args) {
