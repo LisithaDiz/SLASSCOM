@@ -33,26 +33,25 @@ public class Math {
                 j++;
             }
         }
-//bbb:
-//      for(int r=0; r>=x.length-1; r++){
-//
-//          bb:
-//            for (int a = 2; a <= x[i]/2; a++){
-//                if(x[i] % a == 0)
-//                {
-//                    count++;
-//                    break bb;
-//                }
-//            }
-//            if(count == 0 && x[i] != 1 )
-//            {
-//                System.out.println( x[i] + " is a Prime");
-//            }
-//            else
-//            {
-//                System.out.println(x[i] + " is Not");
-//            }
-//            i++;
-//       }
+     for(int r=0; r>=x.length-1; r++){
+
+         bb:
+           for (int a = 2; a <= x[i]/2; a++){
+               if(x[i] % a == 0)
+               {
+                   count++;
+                   break bb;
+               }
+           }
+           if(count == 0 && x[i] != 1 )
+           {
+               System.out.println( x[i] + " is a Prime");
+           }
+           else
+           {
+               System.out.println(x[i] + " is Not");
+           }
+           i++;
+      }
     }
 }
